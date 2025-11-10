@@ -13,4 +13,9 @@ An image classification/object detectection app using Google Teachable Machine t
 final output = List.filled(1 * x, 0.0).reshape([1, x]);
 ```
 ## Output
-- Achieved accuracy of around 76%
+- The model correctly classified $198$ out of $205$ test samples, yielding an overall accuracy of $96.6\%$.
+
+## Screenshots
+![Screen shots](assets/ss/ss3.png)
+![Screen shots](assets/ss/ss1.png)
+![Screen shots](assets/ss/ss2.png)
