@@ -8,5 +8,9 @@ An image classification/object detectection app using Google Teachable Machine t
 - 279 images of Cats, 278 images of Dog and 802 images of Unknown (background images) were used to train the model.
 - Confidence level is set at home_page.dart, if confidence level is low of < 0.9, then cat or dog isn't detected.
 - Matrix is (1,3) since 3 classes were used, if more classes are used then need to make a change in the code line 110 in image_classifier.dart, to increase/decrease the class 'x' used
+
 ```bash
 final output = List.filled(1 * x, 0.0).reshape([1, x]);
+
+## Output
+- Achieved accuracy of around 76%
