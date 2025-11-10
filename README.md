@@ -11,6 +11,6 @@ An image classification/object detectection app using Google Teachable Machine t
 
 ```bash
 final output = List.filled(1 * x, 0.0).reshape([1, x]);
-
+```
 ## Output
 - Achieved accuracy of around 76%
