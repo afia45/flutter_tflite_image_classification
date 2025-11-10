@@ -1,5 +1,7 @@
 # Flutter Image Classification/ Object Detection App
 
+![Screen shots](assets/tflite.png)
+
 An image classification/object detectection app using Google Teachable Machine to upload an image dataset for 2 classes: Cat and Dog. Trained and exported in TensorFlowLite file from which the home page is designed to make the model usable in a mobile app. User can import images both from camera and gallery.
 
 ## Documentation
@@ -12,5 +14,4 @@ An image classification/object detectection app using Google Teachable Machine t
 final output = List.filled(1 * x, 0.0).reshape([1, x]);
 ```
 
-## Screenshots
-![Screen shots](assets/tflite.png)
+
