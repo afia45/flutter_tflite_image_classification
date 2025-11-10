@@ -107,7 +107,7 @@ class ImageClassifier {
     // Prepare output tensor
     // Adjust the output size based on your specific model
     // here 2 is the size/number of the classes. Update it according to your model
-    final output = List.filled(1 * 2, 0.0).reshape([1, 2]);
+    final output = List.filled(1 * 3, 0.0).reshape([1, 3]);
 
     // Run inference
     _interpreter.run(
